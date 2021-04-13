@@ -80,6 +80,67 @@
 <br>
 <br>
 
+# 🤖
+
+# RIGGING
+
+> **to make it easy**, change the view to the side
+
+##### YOU CAN USE the numbers in your laptop (not the ones on the top)
+
+- **(1)** will set the view to front, if you click **9** after you click **1** , it will give you the back view of the model (just the opposite direction)
+
+- **(3)** will set the view to the side, if you click **9** after you click **3** , it will give you the opposite direction)
+
+- **(7)** will set the view from the top, if you click **9** after you click **7** , it will give you the opposite direction)
+
+- **4 / 6** helpful to turn the whole scene x axis and **8 / 2**
+
+[<img src="./src/img/views_blender.gif
+"/>]()
+
+<br>
+<hr>
+<br>
+
+### Start by creating a bone
+
+<br>
+
+> position the view to side view or front view (its just a matter of what you are creating: human / animal / etc)
+
+- **1** IN OBJECT MODE **PRESS SHIFT + A to open the menu. choose "armature" and then "single bone"** to create the first bone
+
+> **NOTE** for the animals options you need to install the "rigging" add-On in **Edit**: Preferences
+
+[<img src="./src/img/1bones.jpg"/>]()
+
+- IN EDIT MODE: **PRESS SHIFT + A** to create a bone
+
+<br>
+<br>
+
+- **2** click on the bone and **drag it** to the place you want it inside the MODEL, keep in mind that the first bone will be the **root** bone in case you want to use it in **UNITY**.
+
+<br>
+
+- **3** You can move the whole bone by selecting it in the middle **or by selecting the spheres in each side of the bone**
+
+ <br>
+
+- **4** Extrude BONES: **_press SHIFT + E or just E_** in your keyboard, from the moment you extrude the bone move it to the emplacement you want, you can also just click in a random place and then slect the spehere of the bone you just created.
+
+[<img src="./src/img/creatingABone.gif"/>]()
+
+> **(extrude: will create another bone out of the one you are selecting)**
+
+<br>
+
+- **5** To deconnect a bone **edit mode: PRESS ALT + P** (**there s a thin line that can be seen in case it worked**)
+
+<br>
+<br>
+
 # :sunflower:
 
 ## LEARN HOW TO UNPARENT BONES
