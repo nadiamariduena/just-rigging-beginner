@@ -133,10 +133,21 @@
 
 - **4** Extrude BONES: **_press SHIFT + E or just E_** in your keyboard, from the moment you extrude the bone move it to the emplacement you want, you can also just click in a random place and then slect the spehere of the bone you just created.
 
-[<img src="./src/img/creatingABone.gif"/>]()
+[<img src="./src/img/creatingABone.gif"/>](https://www.youtube.com/watch?v=vVQ8Bq79UiM)
 
 > **(extrude: will create another bone out of the one you are selecting)**
 
+<br>
+
+## OR
+
+- Move the 3d Cursor to the place you want press **SHIFT + RIGHT CLICK in the mouse** , it will bring the cursor up where you clicked, Once there **_press SHIFT + E or just E_**
+
+- Now press shift to select the new bone you just created and at the same time **hold shift** to select a second bone, what you are doing here is **linking** the loner bone to the rest of the skeletton, so once these two bones are selected **press CTRL + P** and choose \*\*keep offset
+
+[<img src="./src/img/offset_boneParent.gif"/>](https://youtu.be/pkuOs_VA_y4)
+
+<br>
 <br>
 
 - **5** To deconnect a bone **edit mode: PRESS ALT + P** (**there s a thin line that can be seen in case it worked**)
@@ -173,6 +184,12 @@
 <br>
 
 [<img src="./src/img/UNparentBONE.gif"/>]()
+
+<br>
+
+### ctrl + P: to connect
+
+### alt + P: to deconnect
 
 <br>
 <hr>
