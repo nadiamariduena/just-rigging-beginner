@@ -143,7 +143,7 @@
 
 - Move the 3d Cursor to the place you want press **SHIFT + RIGHT CLICK in the mouse** , it will bring the cursor up where you clicked, Once there **_press SHIFT + E or just E_**
 
-- Now press shift to select the new bone you just created and at the same time **hold shift** to select a second bone, what you are doing here is **linking** the loner bone to the rest of the skeletton, so once these two bones are selected **press CTRL + P** and choose \*\*keep offset
+- Now press shift to select the new bone you just created and at the same time **hold shift** to select a second bone, what you are doing here is **linking** the loner bone to the rest of the skeletton, so once these two bones are selected **press CTRL + P** and choose **keep offset**
 
 [<img src="./src/img/offset_boneParent.gif"/>](https://youtu.be/pkuOs_VA_y4)
 
@@ -254,6 +254,26 @@
 - **3 In Object mode again, open the object Menu:** object **+** Set Origin **+** Origin to 3D cursor
 
 [<img src="./src/img/AXISCURSOR_MIRROR ARMATURE_ISSUE3.gif"/>](https://blender.stackexchange.com/questions/77850/x-axis-mirror-does-not-work-properly)
+
+
+<br>
+<hr>
+<br>
+<br>
+<br>
+
+# Inverse kinematics
+
+> **In computer animation and robotics, inverse kinematics is the mathematical process of calculating** the variable joint parameters needed to place the end of a kinematic chain ,(like when we place a finger on the nose, **the brain has to calculate WHAT ANGLE the shoulder should be, the Elbow, the hand and the fingers )** such as a robot manipulator or animation character's skeleton, in a given position and orientation relative to the start of the chain.
+
+ 
+##### strange behavior
+
+- Here I tested the bone in front of the front knee, first i positioned it in front of the front leg to see the results, then i deleted the process and i started it again, this time i positioned in the back, somehow the leg rotate to the oppsite direction following the Front Leg Pole.L bone 
+
+[<img src="./src/img/inverse_kinematics1.gif"/>]( )
+
+ 
 
 <br>
 <hr>
