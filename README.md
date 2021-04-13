@@ -96,8 +96,7 @@
 
 - **4 / 6** helpful to turn the whole scene x axis and **8 / 2**
 
-[<img src="./src/img/views_blender.gif
-"/>]()
+[<img src="./src/img/views_blender.gif"/>]()
 
 <br>
 <hr>
@@ -113,7 +112,7 @@
 
 > **NOTE** for the animals options you need to install the "rigging" add-On in **Edit**: Preferences
 
-[<img src="./src/img/1bones.jpg"/>]()
+[<img src="./src/img/o1bones.jpg"/>]()
 
 - IN EDIT MODE: **PRESS SHIFT + A** to create a bone
 
