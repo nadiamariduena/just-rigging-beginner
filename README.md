@@ -6,6 +6,10 @@
 
 ### This Repository is all about rigging (not about the scene). Rigging is important if you want to export CUSTOM animated models from blender to the THREE JS scene.
 
+##### I am not posting enough here because I have a private account for my advanced projects (so much to do), so I am doing my best to at least show my old projects here.
+
+> I wish there was a way to **copy and paste** but Its blender, so Its taking ages to learn and to use it in my THREE JS SCENE, so here I present you the prototypes I ve made with my little knowledge.
+
 <br>
 
 # 🌵
