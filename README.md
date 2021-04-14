@@ -347,7 +347,7 @@
 
 - SO I parented the model mesh to the armature and yes the Mesh was the problem :)
 
-> **SO here you can see** no sticky feet and everything works like it should
+> **here you can see** no sticky feet and everything works like it should
 
 [<img src="./src/img/Mesh-issues2.gif"/>]()
 
