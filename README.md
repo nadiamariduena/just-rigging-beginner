@@ -255,7 +255,6 @@
 
 [<img src="./src/img/AXISCURSOR_MIRROR ARMATURE_ISSUE3.gif"/>](https://blender.stackexchange.com/questions/77850/x-axis-mirror-does-not-work-properly)
 
-
 <br>
 <hr>
 <br>
@@ -266,14 +265,67 @@
 
 > **In computer animation and robotics, inverse kinematics is the mathematical process of calculating** the variable joint parameters needed to place the end of a kinematic chain ,(like when we place a finger on the nose, **the brain has to calculate WHAT ANGLE the shoulder should be, the Elbow, the hand and the fingers )** such as a robot manipulator or animation character's skeleton, in a given position and orientation relative to the start of the chain.
 
- 
 ##### strange behavior
 
-- Here I tested the bone in front of the front knee, first i positioned it in front of the front leg to see the results, then i deleted the process and i started it again, this time i positioned in the back, somehow the leg rotate to the oppsite direction following the Front Leg Pole.L bone 
+- Here I tested the bone in front of the "front knee", first i positioned it in front of the front leg to see the results, then i deleted the process and i started it again, this time i positioned in the back, somehow the leg rotate to the opposite direction following the Front Leg Pole.L bone
 
-[<img src="./src/img/inverse_kinematics1.gif"/>]( )
+(click img VP)
 
- 
+[<img src="./src/img/inverse_kinematics1.gif"/>](https://youtu.be/cS5W2Xpckbw)
+
+<br>
+
+#### Testing the rotation / possible issues
+
+(click img VP)
+
+[<img src="./src/img/testing-rotation1.gif"/>](https://www.youtube.com/watch?v=8TSJ7y2Wfec)
+
+#### Adding another Bone Constraint to solve the rotation issue
+
+- To reset the bones to the original state **click in alt + G and alt + R** , G is for movement and R for rotation.
+
+- Click on the foot like in the gif, then go to the icon that handle the bones constraints **the icon under the bone icon**, also you have to be in **POSE MODE** to see the icon.
+
+[<img src="./src/img/rotation_solvingissue.gif"/>]()
+
+### check this video to follow the steps
+
+> its a **2019 tutorial** so it should be okay !
+
+- min 5:31
+
+[Armature rigging and Leg IK in Blender 2.81 for simple characters](https://www.youtube.com/watch?v=pkuOs_VA_y4)
+
+<br>
+
+# 🌵
+
+### TIME TO: Mirror / symmetrize the skeleton
+
+##### Once you are done adding the Kinematics to the 2 legs (Front & back ) from the Left side
+
+- In Pose mode: Select everything (just the skeletton not the mesh) **PRESS A** , then go to **Edit Mode** and **right click** doesn't matter where you click it, a MENU will open click in **Symmetrize**
+
+<br>
+
+> **For this to work as smooth as it did**, you have to check that the **3d cursor** is in the right place.
+
+<br>
+
+> **important:** Also the bones have to be correctly named **(respecting the .L or .R convention)**, it means that even if you select the whole skeleton, blender is going to mirror/symmetrize the bones that contain the .L or .R (depending of how you named it) and **its going to rename the mirrored legs based on it, so for instance i named the first to legs of my armature with .L , so blender is going to give me the new legs with .R** (for the right side)
+
+(click img VP)
+
+[<img src="./src/img/symmetrize1.gif"/>](https://youtu.be/84YnzboqM70)
+
+### check this video to follow the steps
+
+> its a **2019 tutorial** so it should be okay !
+
+- min 6:27
+
+[Armature rigging and Leg IK in Blender 2.81 for simple characters](https://www.youtube.com/watch?v=pkuOs_VA_y4)
 
 <br>
 <hr>
@@ -354,7 +406,7 @@
 
 #### to test it
 
-- CLICK PLAY
+- CLICK PLAY in the timeline
 
 [<img src="./src/img/rig_animationTest_1_b.gif"/>]()
 
