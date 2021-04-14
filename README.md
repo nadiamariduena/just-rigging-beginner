@@ -328,6 +328,44 @@
 [Armature rigging and Leg IK in Blender 2.81 for simple characters](https://www.youtube.com/watch?v=pkuOs_VA_y4)
 
 <br>
+<br>
+<br>
+
+# 🌈 ☁️ 🦙
+
+### AFTER PARENTING THE armature to the Mesh
+
+- I ve been busy trying to find out why The mesh continues to cause the same sticky issues, I think I might know why
+
+> I build this MODEL using different Geometries (might be the cause for the issue)
+
+[<img src="./src/img/Mesh-issues.gif"/>]()
+
+- Since I love to **keep records** of any process, i saved the **LOW POLY** of this model, before of course all the cuts and new geometries (like the ones i use on the shoes)
+
+#### SO i appended the LOWPOLY version and adapted the vertices to the "armature" just to see if its was going to work the same MESSY way.
+
+- SO I parented the model mesh to the armature and yes the Mesh was the problem :)
+
+> **SO here you can see** no sticky feet and everything works like it should
+
+[<img src="./src/img/Mesh-issues2.gif"/>]()
+
+> **solutions** for the sticky feet, Might be the use of **Weight Paint** but unfortunately I have no time to try it out as i really need to get back to the code to finish the second Scene with threejs .
+
+<br>
+
+##### useful links to start with Weight Painting
+
+[Blender 2.8 Weight Painting In 5 Minutes!](https://youtu.be/rG82fogtuCg)
+
+###### old version but very informative
+
+[weight painting/skinning | tutorial | Blender | Quick](https://youtu.be/Tl4qTgwQwYw)
+
+#### So tonight i am going to model something similar, hoping that my little skills will give me something closer to the Messy sticky Giraffe, it will be difficult because i will try to model it out of a CUBE :)
+
+<br>
 <hr>
 <br>
 <br>
@@ -430,3 +468,17 @@
 #### I CAN add bones to the eyes of the dog to make it look more natural, that will be my next test and also the walk forward
 
 > the little dog is not going to be added to the scene its just a test.
+
+<br>
+<br>
+<br>
+<br>
+
+# 🌈
+
+<!-- ## Weight Paint
+
+
+- Blue is not weight
+- red is full weight
+- green is in the middle -->
