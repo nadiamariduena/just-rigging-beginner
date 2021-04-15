@@ -366,6 +366,52 @@
 #### So tonight i am going to model something similar, hoping that my little skills will give me something closer to the Messy sticky Giraffe, it will be difficult because i will try to model it out of a CUBE :)
 
 <br>
+<br>
+<br>
+
+
+# 🎠
+
+## STICKY LEGS issue (partially solved)
+
+### Back to the tests
+
+#### Modeling the Giraffe Hybrid (just the body) 
+
+> **Its my first time modeling an animal** so don't expect accuracy
+
+[<img src="./src/img/lowpoly_rigging.gif"/>]()
+
+[<img src="./src/img/legs-modeling1.gif"/>]()
+
+[<img src="./src/img/lowpoly_shoe1.gif"/>]()
+
+[<img src="./src/img/heel_modeling1.gif"/>]()
+
+> **I will customize the heels later**
+
+- So here I added the pants i created in the second Giraffe flower, the one that had the (sticky feet)issue.
+
+- I noticed that the problem might have been the fact that I deleted the vertices of the first body (wrongly).
+
+- Once I deleted the vertices, I "JOINED"  the body to the pants and parented the whole thing to the armature.
+
+- Somehow it caused the **sticky** issue but i am still not 100% sure, due to the fact that later I added the full body to the pants and it didn't work again. 
+
+- I tested sculpting the pants first and then joining it to the body but once again it didn't work, somehow it was sticking from one leg, that s when i had the idea of sculpting them together, thinking that perhaps the mixing of vertices when sculpting will make it work.
+<br> 
+
+> **i will do more tests in the future, for now its working good enough to make a small animation.**
+
+
+[<img src="./src/img/noStickyLegs.gif"/>]()
+
+ > **no more sticky legs** or not like before :)
+
+ - SO it wanst that hard to model easy shoes out of dots
+
+
+<br>
 <hr>
 <br>
 <br>
